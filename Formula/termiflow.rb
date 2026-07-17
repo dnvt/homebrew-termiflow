@@ -1,28 +1,28 @@
 class Termiflow < Formula
   desc "Terminal-native Mermaid flowchart renderer — jq for diagrams"
   homepage "https://github.com/dnvt/termiflow"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/dnvt/termiflow/releases/download/v#{version}/termiflow-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "b06de3dfb424b0a5b54d1fd391f2912a2b3e0e3960888ddd4cc83c7934c012e0"
+      sha256 "9daf3b68dd165397359ebc0acf22ac59a882ab35f0b340dcc8a863cd106973ae"
     end
     on_intel do
       url "https://github.com/dnvt/termiflow/releases/download/v#{version}/termiflow-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "8cfb7e679b5527e03ea6b040b4dd5a6277904daa65af945769eaa69a42a9af8a"
+      sha256 "b7e34728f741c55d5f48171804de435389a34394aa5cca5aced348d50f47806b"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/dnvt/termiflow/releases/download/v#{version}/termiflow-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f97dafce21c347b65239e971d2bdce94615f73226f16c896feda1479e26858f0"
+      sha256 "659f9a37ebc146138c80909bda62eb888d0434bb9a9f12895c1000df7485f2e4"
     end
     on_intel do
       url "https://github.com/dnvt/termiflow/releases/download/v#{version}/termiflow-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1c305561f3d7a5a842b6fd000efe73c88ef630b5ade55ebc9cc87b52cc0fbf7e"
+      sha256 "09b89f97ed5d9c4d9165d2c26f155014ae7e74ab6061acf5a4edbeb87d7483a4"
     end
   end
 
