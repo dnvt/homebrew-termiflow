@@ -1,6 +1,6 @@
 class Termiflow < Formula
-  desc "Terminal-native Mermaid flowchart renderer — jq for diagrams"
-  homepage "https://github.com/dnvt/termiflow"
+  desc "Terminal-native Mermaid flowchart renderer."
+  homepage "https://termiflow.dnvt.me"
   license "MIT"
 
   on_macos do
