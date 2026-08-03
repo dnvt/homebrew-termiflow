@@ -5,23 +5,23 @@ class Termiflow < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/dnvt/termiflow/releases/download/v0.2.0/termiflow-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d282fb2ea5a7dda3b8e78cdfa1ab9404e9f06900daf1ce496780c0650a47061c"
+      url "https://github.com/dnvt/termiflow/releases/download/v0.2.1/termiflow-v0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "a8ca76b66da00cc1f41cbbf29ee6b94110ec3fcb50dd80ff47c232f6c3aab3b1"
     end
     on_intel do
-      url "https://github.com/dnvt/termiflow/releases/download/v0.2.0/termiflow-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "2e9986552574fece759940e88370abfa4f41389a8503bc2f091610ebd9c5b0e3"
+      url "https://github.com/dnvt/termiflow/releases/download/v0.2.1/termiflow-v0.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "90c8a82b656d047918926bbced7a2ef4b83d815199219582277f4a40318539f6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dnvt/termiflow/releases/download/v0.2.0/termiflow-v0.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b3bf164e200264efb9641f821819f73f448af809b38c6c228bb137c060844c6a"
+      url "https://github.com/dnvt/termiflow/releases/download/v0.2.1/termiflow-v0.2.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c5c14aaf65f5dd8ed6459617b63a30fba01e4be8acc513e2fac76c8220bd6399"
     end
     on_intel do
-      url "https://github.com/dnvt/termiflow/releases/download/v0.2.0/termiflow-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ef3d431dd8a81cf804fbf5ec0a44609bdabf19507214dc5344a719f2bb2e98f8"
+      url "https://github.com/dnvt/termiflow/releases/download/v0.2.1/termiflow-v0.2.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "30e9495c7cf7658badc4311f82ff2bfcf229359c1e0dca51e4a96412fe3bcaf6"
     end
   end
 
