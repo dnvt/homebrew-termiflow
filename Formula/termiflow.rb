@@ -1,5 +1,5 @@
 class Termiflow < Formula
-  desc "Terminal-native Mermaid flowchart renderer."
+  desc "Terminal-native Mermaid flowchart renderer"
   homepage "https://termiflow.dnvt.me"
   license "MIT"
 
